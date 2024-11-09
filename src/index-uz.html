@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body class="main__body">
+    <main class="main-uz">
+      <img src="img/logo.svg" alt="" class="main-logo" />
+      <div class="window">
+        <img src="img/bgbottom-window.png" alt="" class="window-img-abs" />
+        <div class="window__images">
+          <div class="window__images--first">
+            <img src="img/slots1.png" alt="" />
+          </div>
+          <div class="window__images--text">
+            <img src="img/text1uz.svg" alt="" />
+          </div>
+          <div class="window__images--second">
+            <img src="img/slots2.png" alt="" />
+          </div>
+        </div>
+        <div class="window__images mobile">
+          <div class="window__images--first">
+            <img src="img/slots1-mobile.png" alt="" />
+          </div>
+          <div class="window__images--text">
+            <img src="img/text2-mobileuz.png" alt="" />
+          </div>
+          <div class="window__images--second">
+            <img src="img/slots2-mobile.png" alt="" />
+          </div>
+        </div>
+        <div class="window__registration">
+          <h1 class="window__registration__title">Ro‘yxatdan o‘</h1>
+          <form class="form">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Kiriting email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Maxfiy so‘z</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Kiriting maxfiy so‘z"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <div class="phone-input">
+                <div class="custom-select" id="phone-select">
+                  <div class="selected">
+                    <img
+                      src="img/flag-uz.png"
+                      alt="flag"
+                      class="country-flag"
+                    />
+                    <span>+998</span>
+                    <img
+                      src="img/arrow-counry.svg"
+                      alt=""
+                      class="country-arrow"
+                    />
+                  </div>
+                  <div class="options">
+                    <div class="option" data-value="+998">
+                      <img
+                        src="img/flag-uz.png"
+                        alt="flag"
+                        class="country-flag"
+                      />
+                      +998
+                    </div>
+                  </div>
+                </div>
+                <input type="tel" id="phone" placeholder="Raqam" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="custom-select" id="currency-select">
+                <div class="selected">
+                  <span>SOM</span>
+                  <img
+                    src="img/arrow-counry.svg"
+                    alt=""
+                    class="country-arrow"
+                  />
+                </div>
+                <div class="options">
+                  <div class="option" data-value="SOM">SOM</div>
+                </div>
+              </div>
+              <div class="custom-select" id="country-select">
+                <div class="selected">
+                  <span>Uzbekistan</span>
+                  <img
+                    src="img/arrow-counry.svg"
+                    alt=""
+                    class="country-arrow"
+                  />
+                </div>
+                <div class="options">
+                  <div class="option" data-value="Uzbekistan">Uzbekistan</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="first_name" placeholder="Ism" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="last_name"
+                placeholder="Familiya"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="checkbox" id="terms" required />
+              <label for="terms" class="custom-checkbox">
+                <span class="checkmark"></span>
+                Men 18 yoshdan oshib, <a href="#">Sayt qoidalari</a>,
+                <a href="#">Mas’ul o‘yin qoidalari</a>,
+                <a href="#"
+                  >To‘lovlarni bekor qilish qoidalari bilan tanishdim</a
+                ></label
+              >
+            </div>
+            <button type="submit" class="btn">Ro‘yxatdan o‘tish</button>
+          </form>
+          <p class="form__footer">Haqaunt mavjud? <a href="#">Kirish</a></p>
+        </div>
+      </div>
+      <div class="main-background">
+        <img src="img/bgbottom1.png" alt="" class="main-background-one" />
+        <img src="img/bgbottom2.png" alt="" class="main-background-second" />
+        <img src="img/headerbg.png" alt="" class="main-background-header" />
+        <img src="img/bg-mobile.png" alt="" class="main-background-mobile" />
+      </div>
+    </main>
+  </body>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="./js/scripts.min.js"></script>
+</html>

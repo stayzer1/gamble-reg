@@ -1,17 +1,4 @@
 // Custom Scripts
-// Smooth Scroll
-const smoothLinks = document.querySelectorAll('a[href^="#"]');
-for (let smoothLink of smoothLinks) {
-  smoothLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    const id = smoothLink.getAttribute("href");
-
-    document.querySelector(id).scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  });
-}
 document.addEventListener("DOMContentLoaded", () => {
   const phoneSelected = document.querySelector("#phone-select .selected");
   const phoneOptionsContainer = document.querySelector(

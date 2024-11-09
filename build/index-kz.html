@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body class="main__body">
+    <main class="main-kz">
+      <img src="img/logo.svg" alt="" class="main-logo" />
+      <div class="window">
+        <img src="img/bgbottom-window.png" alt="" class="window-img-abs" />
+        <div class="window__images">
+          <div class="window__images--first">
+            <img src="img/slots1.png" alt="" />
+          </div>
+          <div class="window__images--text">
+            <img src="img/text1kz.svg" alt="" />
+          </div>
+          <div class="window__images--second">
+            <img src="img/slots2.png" alt="" />
+          </div>
+        </div>
+        <div class="window__images mobile">
+          <div class="window__images--first">
+            <img src="img/slots1-mobile.png" alt="" />
+          </div>
+          <div class="window__images--text">
+            <img src="img/text2-mobilekz.png" alt="" />
+          </div>
+          <div class="window__images--second">
+            <img src="img/slots2-mobile.png" alt="" />
+          </div>
+        </div>
+        <div class="window__registration">
+          <h1 class="window__registration__title">Тіркеу</h1>
+          <form class="form">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Енгізіңіз email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">құпия сөз</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Құпия сөзді енгізіңіз"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <div class="phone-input">
+                <div class="custom-select" id="phone-select">
+                  <div class="selected">
+                    <img
+                      src="img/flag-kz.svg"
+                      alt="flag"
+                      class="country-flag"
+                    />
+                    <span>+7</span>
+                    <img
+                      src="img/arrow-counry.svg"
+                      alt=""
+                      class="country-arrow"
+                    />
+                  </div>
+                  <div class="options">
+                    <div class="option" data-value="+7">
+                      <img
+                        src="img/flag-kz.svg"
+                        alt="Флаг"
+                        class="country-flag"
+                      />
+                      +7
+                    </div>
+                  </div>
+                </div>
+                <input type="tel" id="phone" placeholder="Нөмір" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="custom-select" id="currency-select">
+                <div class="selected">
+                  <span>KZT</span>
+                  <img
+                    src="img/arrow-counry.svg"
+                    alt=""
+                    class="country-arrow"
+                  />
+                </div>
+                <div class="options">
+                  <div class="option" data-value="KZT">KZT</div>
+                </div>
+              </div>
+              <div class="custom-select" id="country-select">
+                <div class="selected">
+                  <span>Kazakhstan</span>
+                  <img
+                    src="img/arrow-counry.svg"
+                    alt=""
+                    class="country-arrow"
+                  />
+                </div>
+                <div class="options">
+                  <div class="option" data-value="Kazakhstan">Kazakhstan</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="first_name" placeholder="Атау" required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="last_name" placeholder="Тегі" required />
+            </div>
+            <div class="form-group">
+              <input type="checkbox" id="terms" required />
+              <label for="terms" class="custom-checkbox">
+                <span class="checkmark"></span>
+                Мен 18 жастан асқанмын және <a href="#">Сайт ережелерімен</a>,
+                <a href="#">Жауапты ойын ережелерімен</a>,
+                <a href="#"
+                  >Төлемдерді алып тастау ережелерімен таныстым</a
+                ></label
+              >
+            </div>
+            <button type="submit" class="btn">Тіркелу</button>
+          </form>
+          <p class="form__footer">Тіркелгіңіз бар ма? <a href="#">Кіру</a></p>
+        </div>
+      </div>
+      <div class="main-background">
+        <img src="img/bgbottom1.png" alt="" class="main-background-one" />
+        <img src="img/bgbottom2.png" alt="" class="main-background-second" />
+        <img src="img/headerbg.png" alt="" class="main-background-header" />
+        <img src="img/bg-mobile.png" alt="" class="main-background-mobile" />
+      </div>
+    </main>
+  </body>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="./js/scripts.min.js"></script>
+</html>

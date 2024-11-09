@@ -301,6 +301,7 @@ label {
   display: block;
   font-family: "FreeSans", sans-serif;
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 
 input[type=email],
@@ -351,6 +352,11 @@ input[type=text]::placeholder {
   display: -ms-flexbox;
   display: flex;
   gap: clamp(0.5rem, 0.314rem + 0.762vw, 1rem);
+}
+
+.main-uz .phone-input .country-arrow {
+  padding-left: 7px;
+  width: 25px;
 }
 
 .phone-input select {
@@ -411,7 +417,15 @@ input[type=text]::placeholder {
 
 .country-flag {
   padding-left: clamp(0.438rem, 0.229rem + 0.857vw, 1rem);
-  width: clamp(1.25rem, 0.507rem + 3.048vw, 3.25rem);
+}
+
+.main-kz .phone-input .selected {
+  gap: 10px;
+}
+
+.main-uz .country-flag,
+.main-kz .country-flag {
+  width: clamp(1.25rem, 0.786rem + 1.9vw, 2.5rem);
 }
 
 .options {
@@ -480,6 +494,14 @@ input[type=text]::placeholder {
 
 .form-group:nth-child(4) #country-select {
   width: 100% !important;
+}
+
+.main-kz .form-group:nth-child(4) #country-select .selected {
+  gap: clamp(2.5rem, 1.688rem + 3.33vw, 4.688rem);
+}
+
+.main-uz .form-group:nth-child(4) #country-select .selected {
+  gap: clamp(3rem, 2.141rem + 3.52vw, 5.313rem);
 }
 
 .selected:hover {
@@ -761,5 +783,17 @@ input[type=checkbox] {
     left: 4px;
     top: -1px;
     width: 5px;
+  }
+
+  .main-uz .phone-input .country-arrow {
+    padding-left: 0px;
+    width: 11px;
+    -webkit-transform: translateX(-2px);
+        -ms-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+
+  .main-kz .phone-input .selected {
+    gap: 5px;
   }
 }
